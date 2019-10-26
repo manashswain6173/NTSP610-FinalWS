@@ -1,0 +1,35 @@
+#server port configuration
+server:
+  port: 9090
+#view Resolver class configuration
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+#DataSource configuration
+  jpa:
+    database: oracle
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource: 
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: manash
+   
+#Appps message configuration
+apps: 
+  appsMsg: 
+      succMsg: Book Details Saved Succesfully
+      failMsg: Failed to save Book Details
+      deleteMsg: Book Details Removed Succesfully
+      updateMsg: Book Details Updated Successfully
+        
+    
+    
+         
+                 
+    
+

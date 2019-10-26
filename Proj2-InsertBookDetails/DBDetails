@@ -1,0 +1,13 @@
+SQL> CREATE TABLE BOOK_DETAILS(BOOKID NUMBER(5) PRIMARY KEY,BOOKNAME VARCHAR2(20),PRICE NUMBER(8,2),AUTHOR VARCHAR2(20));
+
+Table created.
+
+SQL> desc book_details;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ BOOKID                                    NOT NULL NUMBER(5)
+ BOOKNAME                                           VARCHAR2(20)
+ PRICE                                              NUMBER(8,2)
+ AUTHOR                                             VARCHAR2(20)
+
+SQL>
